@@ -123,23 +123,35 @@ img {
     margin-top: 3em;
     margin-bottom: 1em;
 }
+.check-in-out div {
+    width: 20%;
+}
 label {
     color: #5863f8;
-    font-size: 1rem;
-    line-height: 16px;
+    font-size: 0.9rem;
 }
 input {
-    border: none;
+    margin-top: 0.5rem;
+    height: 60px;
+    width: 100%;
+    border: 2px solid #ebebeb;
+    font-size: 0.9rem;
+    padding: 1.5em;
 }
 .submit-button {
+    margin-top: 1.4rem;
     color: #ffffff;
     background-color: #5863f8;
     border: none;
     width: 20%;
     height: 60px;
-    font-size: 1rem;
-    font-weight: 700;
-    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;   
+}
+.send-icon {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
 }
 /********************************************footer********************************************/
 footer {
@@ -166,6 +178,12 @@ footer h3 {
     text-align: justify;
     line-height: 1.2rem;
 }
+.media-icon {
+    margin-top: 2em;
+    margin-right: 0.2em;
+    height: 35px;
+    width: 35px;
+}
 footer p {
     color: #b1b1b1;
     font-size: 1rem;
@@ -175,6 +193,24 @@ footer a {
     font-size: 1rem;
     line-height: 2rem;
 }
+address a {
+    line-height: 2.7rem;
+}
+.mail {
+    height: 13px;
+    width: 17px;
+    vertical-align: middle;
+}
+.phone {
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}
+.map-pin {
+    height: 18px;
+    width: 15px;
+    vertical-align: middle;
+}
 .page-info {
-    margin-top: 4em;
+    margin-top: 3em;
 }
