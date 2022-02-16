@@ -1,0 +1,147 @@
+.flex {
+    display: flex;
+}
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+.padding {
+    padding-right: 6em;
+    padding-left: 6em;
+}
+/********************************************header********************************************/
+header {
+    background-image: url(../img/cover.png);
+    height: 324px;
+    color: #ffffff;
+    padding-top: 2em;
+    margin-bottom: 4em;
+}
+header a {
+    color: #ffffff;
+}
+.main-nav:first-child {
+    margin-right: 5em;
+}
+.main-nav li {
+    margin-right: 3em;
+}
+.main-nav li:last-child {
+    margin-right: 0;
+}
+.main-nav a {
+    font-weight: 700;
+    font-size: 1rem;
+}
+.current-page {
+    color: #5863f8;
+}
+.mini-nav-h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 0.4em;
+}
+.mini-nav a {
+    font-size: 1.15rem;
+}
+.border {
+    border-right: 2px solid #ffffff;
+    padding-right: 1em;
+    margin-right: 1em;
+}
+/********************************************section********************************************/
+.about-us {
+    color: #5863f8;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.article-section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0.1em;
+    margin-bottom: 1em;
+}
+.article-section-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+}
+.section-div-x {
+    display: flex;
+    width: calc(100% - 1em);
+    background-color: #f8f8f8;
+}
+img {
+    height: 100%;
+}
+.inside-section-div-x {
+    padding-top: 3em;
+    padding-left: 1em;
+}
+.inside-section-div-x span {
+    color: #5863f8;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.inside-section-div-x h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.inside-section-div-x p {
+    color: #b1b1b1;
+    font-size: 1rem;
+}
+.check-in-out {
+    background-color: #f8f8f8;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+.submit-button {
+    color: #ffffff;
+    background-color: #5863f8;
+    border: none;
+    width: 20%;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+/********************************************footer********************************************/
+footer {
+    height: 395px;
+    background-color: #121212;
+    padding-top: 4em;
+}
+footer h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 1em;  
+}
+footer h3 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+}
+.contact-info a{
+    color: #ffffff;
+    font-size: 1rem;
+} 
+.Zetta-Hotels {
+    width: 27%;
+}
+footer p {
+    color: #b1b1b1;
+    font-size: 1rem;
+}
+footer a {
+    color: #5863f8;
+    font-size: 1rem;
+}
+.page-info {
+    margin-top: 4em;
+}
