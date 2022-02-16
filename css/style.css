@@ -81,9 +81,10 @@ header a {
     display: flex;
     background-color: #f8f8f8;
 }
-img {
+.section-div-x img {
     height: 100%;
     width: 30%;
+    max-width: 168px;
     object-fit: cover;
 }
 .inside-section-div-x {
@@ -118,7 +119,7 @@ img {
     align-items: center;
     justify-self: center;
     padding: 0 1.5em;
-}
+_}
 .check-in-out {
     background-color: #f8f8f8;
     padding-top: 3em;
