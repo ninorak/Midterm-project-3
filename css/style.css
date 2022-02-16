@@ -158,9 +158,10 @@ input {
 }
 /********************************************footer********************************************/
 footer {
-    height: 395px;
+    height: 420px;
     background-color: #121212;
-    padding-top: 5em;
+    padding-top: 4em;
+    padding-bottom: 2em;
 }
 footer h2 {
     color: #ffffff;
